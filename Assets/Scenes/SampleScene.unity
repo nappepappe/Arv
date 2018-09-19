@@ -342,6 +342,7 @@ GameObject:
   - component: {fileID: 723432974}
   - component: {fileID: 723432973}
   - component: {fileID: 723432975}
+  - component: {fileID: 723432976}
   m_Layer: 0
   m_Name: Lean
   m_TagString: Untagged
@@ -440,6 +441,24 @@ PolygonCollider2D:
       - {x: 0.07, y: -0.13}
       - {x: 0.089999996, y: -0.11}
       - {x: 0.089999996, y: 0.089999996}
+--- !u!114 &723432976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 723432972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1aaca22d2d2c6649ad91fbffabf7641, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodname: Lean (Lil Pump Juice)
+  weight: 0.5
+  cost: 150
+  uses: 0
+  maxUses: 1
+  isYummy: 1
+  saturation: 10
 --- !u!1 &1600360886
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,6 +469,7 @@ GameObject:
   - component: {fileID: 1600360888}
   - component: {fileID: 1600360887}
   - component: {fileID: 1600360889}
+  - component: {fileID: 1600360890}
   m_Layer: 0
   m_Name: Pepsi
   m_TagString: Untagged
@@ -547,6 +567,24 @@ PolygonCollider2D:
       - {x: 0.08, y: -0.14999999}
       - {x: 0.08, y: 0.089999996}
       - {x: 0.03, y: 0.16}
+--- !u!114 &1600360890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1600360886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1aaca22d2d2c6649ad91fbffabf7641, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodname: Pepsi Max
+  weight: 1.5
+  cost: 15
+  uses: 0
+  maxUses: 6
+  isYummy: 1
+  saturation: 0
 --- !u!1 &1673317482
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,6 +595,7 @@ GameObject:
   - component: {fileID: 1673317484}
   - component: {fileID: 1673317483}
   - component: {fileID: 1673317485}
+  - component: {fileID: 1673317486}
   m_Layer: 0
   m_Name: HotDog
   m_TagString: Untagged
@@ -654,6 +693,24 @@ PolygonCollider2D:
       - {x: 0.08, y: -0.07}
       - {x: 0.16, y: -0.03}
       - {x: 0.16, y: 0.12}
+--- !u!114 &1673317486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673317482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1aaca22d2d2c6649ad91fbffabf7641, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodname: 
+  weight: 0.4
+  cost: 10
+  uses: 0
+  maxUses: 1
+  isYummy: 1
+  saturation: 16
 --- !u!1 &1699465981
 GameObject:
   m_ObjectHideFlags: 0

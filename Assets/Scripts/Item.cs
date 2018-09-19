@@ -14,10 +14,10 @@ public class Item : MonoBehaviour
     }
     public override string ToString()
     {
-        return "Food Name: " + foodname + "\nCost " + cost.ToString() + "\nWeight"+ weight.ToString() + "\nCost Per Kg " + GetCostPerKilo().ToString();
+        return "Food Name: " + foodname + ". Cost " + cost.ToString() + ". Weight "+ weight.ToString() + ". Cost Per Kg " + GetCostPerKilo().ToString();
     }
-    public void OnMouseEnter()
+    public virtual void OnMouseEnter()
     {
-        
+        Debug.Log(ToString());
     }
 }
